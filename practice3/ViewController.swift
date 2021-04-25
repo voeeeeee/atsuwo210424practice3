@@ -23,11 +23,8 @@ class ViewController: UIViewController {
     var number1 = 0
     var number2 = 0
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-       
     }
 
     @IBAction func sumButton(_ sender: Any) {
@@ -52,6 +49,5 @@ class ViewController: UIViewController {
         
         sumLabel.text = String(number1 + number2)
     }
-    
 }
 
